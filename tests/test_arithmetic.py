@@ -27,11 +27,3 @@ def test_division():
 
     assert a / b == 1
 
-
-def test_pi():
-    from math import pi
-    
-    pi_approx = 22.0/7
-
-    assert abs(pi - pi_approx) < 0.01
-
